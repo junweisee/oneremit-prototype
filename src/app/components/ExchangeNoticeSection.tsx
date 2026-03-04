@@ -1,8 +1,8 @@
-import { motion } from 'motion/react';
-import { Translation } from '../translations';
-import imgFlagImage  from 'figma:asset/da19d3b20c36de9cd3c0b60eb2dd732efebf6d02.png'; // KR
-import imgFlagImage1 from 'figma:asset/9875e3b3d86e7e562cb0bc2c432eba5885fc02be.png'; // GB/EN
-import imgFlagIcon   from 'figma:asset/9b49587ddc7f5ff1a253a50d93a5735408b7988d.png'; // CN
+import { motion } from "motion/react";
+import { Translation } from "../translations";
+import imgFlagImage from "https://placehold.co/600x400da19d3b20c36de9cd3c0b60eb2dd732efebf6d02.png"; // KR
+import imgFlagImage1 from "https://placehold.co/600x4009875e3b3d86e7e562cb0bc2c432eba5885fc02be.png"; // GB/EN
+import imgFlagIcon from "https://placehold.co/600x4009b49587ddc7f5ff1a253a50d93a5735408b7988d.png"; // CN
 
 interface ExchangeNoticeSectionProps {
   t: Translation;
@@ -17,19 +17,69 @@ type RateEntry = {
 };
 
 const LEFT_RATES: RateEntry[] = [
-  { flagSrc: imgFlagImage,                        flagCls: 'h-[152.38%] left-0 max-w-none top-[-26.19%] w-full',              code: 'KR', rate: '9.4745 KRW' },
-  { flagSrc: 'https://flagcdn.com/w40/ph.png',    flagCls: 'h-[152.38%] left-0 max-w-none top-[-26.19%] w-full',              code: 'PH', rate: '0.3760 PHP' },
-  { flagSrc: 'https://flagcdn.com/w40/vn.png',    flagCls: 'h-[152.38%] left-0 max-w-none top-[-26.19%] w-full',              code: 'VN', rate: '164.40 VND' },
-  { flagSrc: 'https://flagcdn.com/w40/us.png',    flagCls: 'h-[152.38%] left-0 max-w-none top-[-26.19%] w-full',              code: 'US', rate: '0.0067 USD' },
-  { flagSrc: imgFlagIcon,                         flagCls: 'h-[152.38%] left-0 max-w-none top-[-26.19%] w-full',              code: 'CN', rate: '0.0490 CNY' },
+  {
+    flagSrc: imgFlagImage,
+    flagCls: "h-[152.38%] left-0 max-w-none top-[-26.19%] w-full",
+    code: "KR",
+    rate: "9.4745 KRW",
+  },
+  {
+    flagSrc: "https://flagcdn.com/w40/ph.png",
+    flagCls: "h-[152.38%] left-0 max-w-none top-[-26.19%] w-full",
+    code: "PH",
+    rate: "0.3760 PHP",
+  },
+  {
+    flagSrc: "https://flagcdn.com/w40/vn.png",
+    flagCls: "h-[152.38%] left-0 max-w-none top-[-26.19%] w-full",
+    code: "VN",
+    rate: "164.40 VND",
+  },
+  {
+    flagSrc: "https://flagcdn.com/w40/us.png",
+    flagCls: "h-[152.38%] left-0 max-w-none top-[-26.19%] w-full",
+    code: "US",
+    rate: "0.0067 USD",
+  },
+  {
+    flagSrc: imgFlagIcon,
+    flagCls: "h-[152.38%] left-0 max-w-none top-[-26.19%] w-full",
+    code: "CN",
+    rate: "0.0490 CNY",
+  },
 ];
 
 const RIGHT_RATES: RateEntry[] = [
-  { flagSrc: 'https://flagcdn.com/w40/np.png',    flagCls: 'h-[152.38%] left-0 max-w-none top-[-26.19%] w-full',              code: 'NP', rate: '0.8930 NPR' },
-  { flagSrc: imgFlagImage1,                       flagCls: 'h-[142.22%] left-[-3.33%] max-w-none top-[-21.11%] w-[106.67%]',  code: 'GB', rate: '0.0054 GBP' },
-  { flagSrc: 'https://flagcdn.com/w40/au.png',    flagCls: 'h-[152.38%] left-0 max-w-none top-[-26.19%] w-full',              code: 'AU', rate: '0.0101 AUD' },
-  { flagSrc: 'https://flagcdn.com/w40/th.png',    flagCls: 'h-[152.38%] left-0 max-w-none top-[-26.19%] w-full',              code: 'TH', rate: '0.2450 THB' },
-  { flagSrc: 'https://flagcdn.com/w40/my.png',    flagCls: 'h-[152.38%] left-0 max-w-none top-[-26.19%] w-full',              code: 'MY', rate: '0.0312 MYR' },
+  {
+    flagSrc: "https://flagcdn.com/w40/np.png",
+    flagCls: "h-[152.38%] left-0 max-w-none top-[-26.19%] w-full",
+    code: "NP",
+    rate: "0.8930 NPR",
+  },
+  {
+    flagSrc: imgFlagImage1,
+    flagCls: "h-[142.22%] left-[-3.33%] max-w-none top-[-21.11%] w-[106.67%]",
+    code: "GB",
+    rate: "0.0054 GBP",
+  },
+  {
+    flagSrc: "https://flagcdn.com/w40/au.png",
+    flagCls: "h-[152.38%] left-0 max-w-none top-[-26.19%] w-full",
+    code: "AU",
+    rate: "0.0101 AUD",
+  },
+  {
+    flagSrc: "https://flagcdn.com/w40/th.png",
+    flagCls: "h-[152.38%] left-0 max-w-none top-[-26.19%] w-full",
+    code: "TH",
+    rate: "0.2450 THB",
+  },
+  {
+    flagSrc: "https://flagcdn.com/w40/my.png",
+    flagCls: "h-[152.38%] left-0 max-w-none top-[-26.19%] w-full",
+    code: "MY",
+    rate: "0.0312 MYR",
+  },
 ];
 
 // ─── Row ────────────────────────────────────────────────────────────────────
@@ -45,7 +95,9 @@ function RateRow({ flagSrc, flagCls, code, rate }: RateEntry) {
             </div>
           </div>
         </div>
-        <p className="font-normal leading-normal relative shrink-0 text-[#3f4e50] text-[14px]">{code}</p>
+        <p className="font-normal leading-normal relative shrink-0 text-[#3f4e50] text-[14px]">
+          {code}
+        </p>
       </div>
       {/* rate cell */}
       <div className="content-stretch flex items-center justify-center overflow-clip relative shrink-0">
@@ -70,7 +122,6 @@ export function ExchangeNoticeSection({ t }: ExchangeNoticeSectionProps) {
   return (
     <section className="w-full py-8 md:py-12">
       <div className="max-w-[1440px] mx-auto px-4 md:px-[64px] flex flex-col lg:flex-row gap-[32px] items-start">
-
         {/* ── Exchange Rate Panel ─────────────────────────────────────── */}
         <motion.div
           className="w-full lg:flex-[1_0_0] lg:min-w-0 bg-white rounded-[8px] flex flex-col overflow-hidden relative"
@@ -80,13 +131,20 @@ export function ExchangeNoticeSection({ t }: ExchangeNoticeSectionProps) {
           transition={{ duration: 0.5 }}
         >
           {/* inset border — same as Figma overlay border pattern */}
-          <div aria-hidden="true" className="absolute border border-[#e5e5e5] border-solid inset-0 pointer-events-none rounded-[8px] z-10" />
+          <div
+            aria-hidden="true"
+            className="absolute border border-[#e5e5e5] border-solid inset-0 pointer-events-none rounded-[8px] z-10"
+          />
 
           {/* Header */}
           <div className="content-stretch flex flex-col items-start p-[24px] relative w-full shrink-0">
             <div className="content-stretch flex items-center justify-between relative w-full">
-              <p className="font-medium leading-normal relative shrink-0 text-[#231a16] text-[16px]">{t.exchange.title}</p>
-              <p className="font-normal leading-normal relative shrink-0 text-[#647576] text-[14px]">{t.exchange.updatedAt}</p>
+              <p className="font-medium leading-normal relative shrink-0 text-[#231a16] text-[16px]">
+                {t.exchange.title}
+              </p>
+              <p className="font-normal leading-normal relative shrink-0 text-[#647576] text-[14px]">
+                {t.exchange.updatedAt}
+              </p>
             </div>
           </div>
 
@@ -98,11 +156,15 @@ export function ExchangeNoticeSection({ t }: ExchangeNoticeSectionProps) {
             <div className="flex items-start">
               {/* Left column — gap-[16px] matches Figma Container gap */}
               <div className="flex flex-col gap-[16px] flex-1 min-w-0">
-                {LEFT_RATES.map(r => <RateRow key={r.code} {...r} />)}
+                {LEFT_RATES.map((r) => (
+                  <RateRow key={r.code} {...r} />
+                ))}
               </div>
               {/* Right column */}
               <div className="flex flex-col gap-[16px] flex-1 min-w-0">
-                {RIGHT_RATES.map(r => <RateRow key={r.code} {...r} />)}
+                {RIGHT_RATES.map((r) => (
+                  <RateRow key={r.code} {...r} />
+                ))}
               </div>
             </div>
           </div>
@@ -117,13 +179,20 @@ export function ExchangeNoticeSection({ t }: ExchangeNoticeSectionProps) {
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.1 }}
         >
-          <div aria-hidden="true" className="absolute border border-[#e5e5e5] border-solid inset-0 pointer-events-none rounded-[8px] z-10" />
+          <div
+            aria-hidden="true"
+            className="absolute border border-[#e5e5e5] border-solid inset-0 pointer-events-none rounded-[8px] z-10"
+          />
 
           {/* Header */}
           <div className="content-stretch flex flex-col items-start p-[24px] relative w-full shrink-0">
             <div className="content-stretch flex font-medium items-center justify-between leading-normal relative w-full">
-              <p className="relative shrink-0 text-[#3f4e50] text-[16px]">{t.notice.title}</p>
-              <button className="relative shrink-0 text-[#3a9944] text-[14px] cursor-pointer">{t.notice.viewAll}</button>
+              <p className="relative shrink-0 text-[#3f4e50] text-[16px]">
+                {t.notice.title}
+              </p>
+              <button className="relative shrink-0 text-[#3a9944] text-[14px] cursor-pointer">
+                {t.notice.viewAll}
+              </button>
             </div>
           </div>
 
@@ -138,14 +207,17 @@ export function ExchangeNoticeSection({ t }: ExchangeNoticeSectionProps) {
                   key={i}
                   className="content-stretch flex items-center justify-between relative shrink-0 w-full"
                 >
-                  <p className="relative shrink-0 text-[#3a9944] cursor-pointer">{notice.text}</p>
-                  <p className="relative shrink-0 text-[#3f4e50] pl-4">{notice.date}</p>
+                  <p className="relative shrink-0 text-[#3a9944] cursor-pointer">
+                    {notice.text}
+                  </p>
+                  <p className="relative shrink-0 text-[#3f4e50] pl-4">
+                    {notice.date}
+                  </p>
                 </div>
               ))}
             </div>
           </div>
         </motion.div>
-
       </div>
     </section>
   );
