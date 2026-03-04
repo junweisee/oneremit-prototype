@@ -1,9 +1,9 @@
 import { motion } from "motion/react";
 import { Translation } from "../translations";
-import imgInformationImage from "https://placehold.co/600x400";
-import imgServiceImage from "https://placehold.co/600x400";
-import imgNetworkImage from "https://placehold.co/600x400";
-import imgRemittanceImage from "https://placehold.co/600x400";
+import imgInformationImage from """";
+import imgServiceImage from """";
+import imgNetworkImage from """";
+import imgRemittanceImage from """";
 
 interface FeatureBlockProps {
   title: string;

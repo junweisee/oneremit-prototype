@@ -1,7 +1,7 @@
 import svgPaths from "./svg-tc3c3nx1ym";
-import imgLogo from "https://placehold.co/600x400";
-import imgLogo1 from "https://placehold.co/600x400";
-import imgFlagImage from "https://placehold.co/600x400";
+import imgLogo from """";
+import imgLogo1 from """";
+import imgFlagImage from """";
 
 function Line() {
   return (

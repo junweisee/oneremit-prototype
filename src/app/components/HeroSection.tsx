@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 import { Translation } from "../translations";
 import { Calculator } from "./Calculator";
-import imgIntroImage from "https://placehold.co/600x400";
+import imgIntroImage from """";
 
 interface HeroSectionProps {
   t: Translation;

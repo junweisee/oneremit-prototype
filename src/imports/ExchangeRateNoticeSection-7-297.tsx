@@ -1,7 +1,7 @@
 import svgPaths from "./svg-cmjc46eo2c";
-import imgFlagImage from "https://placehold.co/600x400";
-import imgFlagImage1 from "https://placehold.co/600x400";
-import imgFlagIcon from "https://placehold.co/600x400";
+import imgFlagImage from """";
+import imgFlagImage1 from """";
+import imgFlagIcon from """";
 
 function ExchangeRateDetails() {
   return (

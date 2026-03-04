@@ -1,8 +1,8 @@
 import { motion } from "motion/react";
 import { Translation } from "../translations";
-import imgFlagImage from "https://placehold.co/600x400"; // KR
-import imgFlagImage1 from "https://placehold.co/600x400"; // GB/EN
-import imgFlagIcon from "https://placehold.co/600x400"; // CN
+import imgFlagImage from """"; // KR
+import imgFlagImage1 from """"; // GB/EN
+import imgFlagIcon from """"; // CN
 
 interface ExchangeNoticeSectionProps {
   t: Translation;

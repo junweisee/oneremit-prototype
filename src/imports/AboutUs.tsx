@@ -1,11 +1,11 @@
 import svgPaths from "./svg-nvg9eh288p";
-import imgLogo from "https://placehold.co/600x400";
-import imgFlagImage from "https://placehold.co/600x400";
-import imgLogo1 from "https://placehold.co/600x400";
-import imgHeaderImage from "https://placehold.co/600x400";
-import imgPartnerBankLogo from "https://placehold.co/600x400";
-import imgPartnerBankLogo1 from "https://placehold.co/600x400";
-import imgPartnerBankLogo2 from "https://placehold.co/600x400";
+import imgLogo from """";
+import imgFlagImage from """";
+import imgLogo1 from """";
+import imgHeaderImage from """";
+import imgPartnerBankLogo from """";
+import imgPartnerBankLogo1 from """";
+import imgPartnerBankLogo2 from """";
 import { imgGroup, imgGroup1, imgGroup2, imgGroup3 } from "./svg-oxasz";
 
 function NavigationItem() {

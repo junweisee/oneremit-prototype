@@ -1,9 +1,9 @@
 import { motion } from "motion/react";
 import { CountryGrid } from "../components/CountryGrid";
-import imgHeaderImage from "https://placehold.co/600x400";
-import imgPartnerLogo from "https://placehold.co/600x400"; // MUFG
-import imgPartnerLogo1 from "https://placehold.co/600x400"; // Mizuho
-import imgPartnerLogo2 from "https://placehold.co/600x400"; // Rakuten Bank
+import imgHeaderImage from """";
+import imgPartnerLogo from """"; // MUFG
+import imgPartnerLogo1 from """"; // Mizuho
+import imgPartnerLogo2 from """"; // Rakuten Bank
 
 const JOURNEY = [
   {

@@ -1,17 +1,17 @@
 import svgPaths from "./svg-437bv9yw2l";
-import imgLogo from "https://placehold.co/600x400";
-import imgFlagImage from "https://placehold.co/600x400";
-import imgIntroImage from "https://placehold.co/600x400";
-import imgFlagImage1 from "https://placehold.co/600x400";
-import imgFlagImage2 from "https://placehold.co/600x400";
-import imgInformationImage from "https://placehold.co/600x400";
-import imgServiceImage from "https://placehold.co/600x400";
-import imgNetworkImage from "https://placehold.co/600x400";
-import imgRemittanceImage from "https://placehold.co/600x400";
-import imgPromotionImage from "https://placehold.co/600x400";
-import imgPromotionImage1 from "https://placehold.co/600x400";
-import imgPromotionImage2 from "https://placehold.co/600x400";
-import imgFlagIcon from "https://placehold.co/600x400";
+import imgLogo from """";
+import imgFlagImage from """";
+import imgIntroImage from """";
+import imgFlagImage1 from """";
+import imgFlagImage2 from """";
+import imgInformationImage from """";
+import imgServiceImage from """";
+import imgNetworkImage from """";
+import imgRemittanceImage from """";
+import imgPromotionImage from """";
+import imgPromotionImage1 from """";
+import imgPromotionImage2 from """";
+import imgFlagIcon from """";
 
 function NavigationItem() {
   return (

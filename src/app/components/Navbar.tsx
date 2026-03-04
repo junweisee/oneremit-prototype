@@ -3,9 +3,9 @@ import { Link, useLocation } from "react-router";
 import { motion, AnimatePresence } from "motion/react";
 import { Menu, X, ChevronDown } from "lucide-react";
 import { Language, LANGUAGES, Translation } from "../translations";
-import imgLogo from "https://placehold.co/600x400";
-import imgFlagEN from "https://placehold.co/600x400";
-import imgFlagKR from "https://placehold.co/600x400";
+import imgLogo from """";
+import imgFlagEN from """";
+import imgFlagKR from """";
 
 const FLAG_MAP: Record<Language, string> = {
   en: imgFlagEN,

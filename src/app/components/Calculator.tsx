@@ -2,8 +2,8 @@ import { useState, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { ChevronDown } from "lucide-react";
 import { Translation, CURRENCIES, formatReceiveAmount } from "../translations";
-import imgFlagKR from "https://placehold.co/600x400"; // Korea
-import imgFlagCN from "https://placehold.co/600x400"; // China
+import imgFlagKR from """"; // Korea
+import imgFlagCN from """"; // China
 
 const JP_FLAG = "https://flagcdn.com/w40/jp.png";
 
