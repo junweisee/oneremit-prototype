@@ -1,7 +1,7 @@
 import svgPaths from "./svg-lzxx3v0b7v";
-import imgLogo from """";
-import imgFlagImage from """";
-import imgLogo1 from """";
+import imgLogo from C:\Users\junwe\Documents\GitHub\oneremit-prototype\src\assets\landscape-placeholder.svg;
+import imgFlagImage from C:\Users\junwe\Documents\GitHub\oneremit-prototype\src\assets\landscape-placeholder.svg;
+import imgLogo1 from C:\Users\junwe\Documents\GitHub\oneremit-prototype\src\assets\landscape-placeholder.svg;
 
 function NavigationItem() {
   return (

@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 import { Translation } from "../translations";
-import imgLogo from """";
+import imgLogo from C:\Users\junwe\Documents\GitHub\oneremit-prototype\src\assets\landscape-placeholder.svg;
 
 interface FooterProps {
   t: Translation;

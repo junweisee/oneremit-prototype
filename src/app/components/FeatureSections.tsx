@@ -1,9 +1,9 @@
 import { motion } from "motion/react";
 import { Translation } from "../translations";
-import imgInformationImage from """";
-import imgServiceImage from """";
-import imgNetworkImage from """";
-import imgRemittanceImage from """";
+import imgInformationImage from C:\Users\junwe\Documents\GitHub\oneremit-prototype\src\assets\landscape-placeholder.svg;
+import imgServiceImage from C:\Users\junwe\Documents\GitHub\oneremit-prototype\src\assets\landscape-placeholder.svg;
+import imgNetworkImage from C:\Users\junwe\Documents\GitHub\oneremit-prototype\src\assets\landscape-placeholder.svg;
+import imgRemittanceImage from C:\Users\junwe\Documents\GitHub\oneremit-prototype\src\assets\landscape-placeholder.svg;
 
 interface FeatureBlockProps {
   title: string;

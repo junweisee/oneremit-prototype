@@ -1,11 +1,11 @@
 import svgPaths from "./svg-nvg9eh288p";
-import imgLogo from """";
-import imgFlagImage from """";
-import imgLogo1 from """";
-import imgHeaderImage from """";
-import imgPartnerBankLogo from """";
-import imgPartnerBankLogo1 from """";
-import imgPartnerBankLogo2 from """";
+import imgLogo from C:\Users\junwe\Documents\GitHub\oneremit-prototype\src\assets\landscape-placeholder.svg;
+import imgFlagImage from C:\Users\junwe\Documents\GitHub\oneremit-prototype\src\assets\landscape-placeholder.svg;
+import imgLogo1 from C:\Users\junwe\Documents\GitHub\oneremit-prototype\src\assets\landscape-placeholder.svg;
+import imgHeaderImage from C:\Users\junwe\Documents\GitHub\oneremit-prototype\src\assets\landscape-placeholder.svg;
+import imgPartnerBankLogo from C:\Users\junwe\Documents\GitHub\oneremit-prototype\src\assets\landscape-placeholder.svg;
+import imgPartnerBankLogo1 from C:\Users\junwe\Documents\GitHub\oneremit-prototype\src\assets\landscape-placeholder.svg;
+import imgPartnerBankLogo2 from C:\Users\junwe\Documents\GitHub\oneremit-prototype\src\assets\landscape-placeholder.svg;
 import { imgGroup, imgGroup1, imgGroup2, imgGroup3 } from "./svg-oxasz";
 
 function NavigationItem() {

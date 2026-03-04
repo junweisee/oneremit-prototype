@@ -3,9 +3,9 @@ import { Link, useLocation } from "react-router";
 import { motion, AnimatePresence } from "motion/react";
 import { Menu, X, ChevronDown } from "lucide-react";
 import { Language, LANGUAGES, Translation } from "../translations";
-import imgLogo from """";
-import imgFlagEN from """";
-import imgFlagKR from """";
+import imgLogo from C:\Users\junwe\Documents\GitHub\oneremit-prototype\src\assets\landscape-placeholder.svg;
+import imgFlagEN from C:\Users\junwe\Documents\GitHub\oneremit-prototype\src\assets\landscape-placeholder.svg;
+import imgFlagKR from C:\Users\junwe\Documents\GitHub\oneremit-prototype\src\assets\landscape-placeholder.svg;
 
 const FLAG_MAP: Record<Language, string> = {
   en: imgFlagEN,

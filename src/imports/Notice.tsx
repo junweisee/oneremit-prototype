@@ -1,7 +1,7 @@
 import svgPaths from "./svg-tc3c3nx1ym";
-import imgLogo from """";
-import imgLogo1 from """";
-import imgFlagImage from """";
+import imgLogo from C:\Users\junwe\Documents\GitHub\oneremit-prototype\src\assets\landscape-placeholder.svg;
+import imgLogo1 from C:\Users\junwe\Documents\GitHub\oneremit-prototype\src\assets\landscape-placeholder.svg;
+import imgFlagImage from C:\Users\junwe\Documents\GitHub\oneremit-prototype\src\assets\landscape-placeholder.svg;
 
 function Line() {
   return (
