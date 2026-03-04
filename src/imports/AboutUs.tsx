@@ -1,11 +1,11 @@
 import svgPaths from "./svg-nvg9eh288p";
-import imgLogo from "../assets/landscape-placeholder.svg";
-import imgFlagImage from "../assets/landscape-placeholder.svg";
-import imgLogo1 from "../assets/landscape-placeholder.svg";
-import imgHeaderImage from "../assets/landscape-placeholder.svg";
-import imgPartnerBankLogo from "../assets/landscape-placeholder.svg";
-import imgPartnerBankLogo1 from "../assets/landscape-placeholder.svg";
-import imgPartnerBankLogo2 from "../assets/landscape-placeholder.svg";
+import imgLogo from "../../assets/landscape-placeholder.svg";
+import imgFlagImage from "../../assets/landscape-placeholder.svg";
+import imgLogo1 from "../../assets/landscape-placeholder.svg";
+import imgHeaderImage from "../../assets/landscape-placeholder.svg";
+import imgPartnerBankLogo from "../../assets/landscape-placeholder.svg";
+import imgPartnerBankLogo1 from "../../assets/landscape-placeholder.svg";
+import imgPartnerBankLogo2 from "../../assets/landscape-placeholder.svg";
 import { imgGroup, imgGroup1, imgGroup2, imgGroup3 } from "./svg-oxasz";
 
 function NavigationItem() {

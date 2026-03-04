@@ -1,7 +1,7 @@
 import svgPaths from "./svg-lzxx3v0b7v";
-import imgLogo from "../assets/landscape-placeholder.svg";
-import imgFlagImage from "../assets/landscape-placeholder.svg";
-import imgLogo1 from "../assets/landscape-placeholder.svg";
+import imgLogo from "../../assets/landscape-placeholder.svg";
+import imgFlagImage from "../../assets/landscape-placeholder.svg";
+import imgLogo1 from "../../assets/landscape-placeholder.svg";
 
 function NavigationItem() {
   return (

@@ -1,8 +1,8 @@
 import { motion } from "motion/react";
 import { Translation } from "../translations";
-import imgFlagImage from "../assets/landscape-placeholder.svg"; // KR
-import imgFlagImage1 from "../assets/landscape-placeholder.svg"; // GB/EN
-import imgFlagIcon from "../assets/landscape-placeholder.svg"; // CN
+import imgFlagImage from "../../assets/landscape-placeholder.svg"; // KR
+import imgFlagImage1 from "../../assets/landscape-placeholder.svg"; // GB/EN
+import imgFlagIcon from "../../assets/landscape-placeholder.svg"; // CN
 
 interface ExchangeNoticeSectionProps {
   t: Translation;

@@ -1,9 +1,9 @@
 import { motion } from "motion/react";
 import { Translation } from "../translations";
-import imgInformationImage from "../assets/landscape-placeholder.svg";
-import imgServiceImage from "../assets/landscape-placeholder.svg";
-import imgNetworkImage from "../assets/landscape-placeholder.svg";
-import imgRemittanceImage from "../assets/landscape-placeholder.svg";
+import imgInformationImage from "../../assets/landscape-placeholder.svg";
+import imgServiceImage from "../../assets/landscape-placeholder.svg";
+import imgNetworkImage from "../../assets/landscape-placeholder.svg";
+import imgRemittanceImage from "../../assets/landscape-placeholder.svg";
 
 interface FeatureBlockProps {
   title: string;

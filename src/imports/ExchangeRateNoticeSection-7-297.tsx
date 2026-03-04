@@ -1,7 +1,7 @@
 import svgPaths from "./svg-cmjc46eo2c";
-import imgFlagImage from "../assets/landscape-placeholder.svg";
-import imgFlagImage1 from "../assets/landscape-placeholder.svg";
-import imgFlagIcon from "../assets/landscape-placeholder.svg";
+import imgFlagImage from "../../assets/landscape-placeholder.svg";
+import imgFlagImage1 from "../../assets/landscape-placeholder.svg";
+import imgFlagIcon from "../../assets/landscape-placeholder.svg";
 
 function ExchangeRateDetails() {
   return (

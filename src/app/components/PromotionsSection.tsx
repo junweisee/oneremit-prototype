@@ -2,9 +2,9 @@ import { motion } from "motion/react";
 import { Translation } from "../translations";
 import { ChevronRight, ChevronLeft } from "lucide-react";
 import svgPaths from "../../imports/svg-437bv9yw2l";
-import imgPromotionImage from "../assets/landscape-placeholder.svg";
-import imgPromotionImage1 from "../assets/landscape-placeholder.svg";
-import imgPromotionImage2 from "../assets/landscape-placeholder.svg";
+import imgPromotionImage from "../../assets/landscape-placeholder.svg";
+import imgPromotionImage1 from "../../assets/landscape-placeholder.svg";
+import imgPromotionImage2 from "../../assets/landscape-placeholder.svg";
 
 interface PromotionCardProps {
   image: string;
