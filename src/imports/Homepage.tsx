@@ -1,17 +1,17 @@
 import svgPaths from "./svg-437bv9yw2l";
-import imgLogo from "https://placehold.co/600x400082a90a04b893d1c8d3ceafaf5997a05068aab8b.png";
-import imgFlagImage from "https://placehold.co/600x4009875e3b3d86e7e562cb0bc2c432eba5885fc02be.png";
-import imgIntroImage from "https://placehold.co/600x4004cb73885bd48ef33b1edb44ae1c6367218a5b158.png";
-import imgFlagImage1 from "https://placehold.co/600x40027be2d2426c96da581cf5ef337cb07ac72675fe3.png";
-import imgFlagImage2 from "https://placehold.co/600x400da19d3b20c36de9cd3c0b60eb2dd732efebf6d02.png";
-import imgInformationImage from "https://placehold.co/600x40004380d1b347adc25f69945579d27f639b0420163.png";
-import imgServiceImage from "https://placehold.co/600x4000d83fb4f23b59f70b8858869bd332423e0fcb449.png";
-import imgNetworkImage from "https://placehold.co/600x4002d3b4a387814ed04a5cd04e744224fa132144cf1.png";
-import imgRemittanceImage from "https://placehold.co/600x400623f7fe5dd5c02da184e093f65eba1f5ca97d3ac.png";
-import imgPromotionImage from "https://placehold.co/600x400d3016ba6bb8aa3edcc77914f5be684ef2912dd32.png";
-import imgPromotionImage1 from "https://placehold.co/600x400191d832370083d8d5169228fe5d13a52173bba78.png";
-import imgPromotionImage2 from "https://placehold.co/600x400d2cabf5d2339b3084dae91160ce10494692d7190.png";
-import imgFlagIcon from "https://placehold.co/600x4009b49587ddc7f5ff1a253a50d93a5735408b7988d.png";
+import imgLogo from "https://placehold.co/600x400";
+import imgFlagImage from "https://placehold.co/600x400";
+import imgIntroImage from "https://placehold.co/600x400";
+import imgFlagImage1 from "https://placehold.co/600x400";
+import imgFlagImage2 from "https://placehold.co/600x400";
+import imgInformationImage from "https://placehold.co/600x400";
+import imgServiceImage from "https://placehold.co/600x400";
+import imgNetworkImage from "https://placehold.co/600x400";
+import imgRemittanceImage from "https://placehold.co/600x400";
+import imgPromotionImage from "https://placehold.co/600x400";
+import imgPromotionImage1 from "https://placehold.co/600x400";
+import imgPromotionImage2 from "https://placehold.co/600x400";
+import imgFlagIcon from "https://placehold.co/600x400";
 
 function NavigationItem() {
   return (

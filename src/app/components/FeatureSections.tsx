@@ -1,9 +1,9 @@
 import { motion } from "motion/react";
 import { Translation } from "../translations";
-import imgInformationImage from "https://placehold.co/600x40004380d1b347adc25f69945579d27f639b0420163.png";
-import imgServiceImage from "https://placehold.co/600x4000d83fb4f23b59f70b8858869bd332423e0fcb449.png";
-import imgNetworkImage from "https://placehold.co/600x4002d3b4a387814ed04a5cd04e744224fa132144cf1.png";
-import imgRemittanceImage from "https://placehold.co/600x400623f7fe5dd5c02da184e093f65eba1f5ca97d3ac.png";
+import imgInformationImage from "https://placehold.co/600x400";
+import imgServiceImage from "https://placehold.co/600x400";
+import imgNetworkImage from "https://placehold.co/600x400";
+import imgRemittanceImage from "https://placehold.co/600x400";
 
 interface FeatureBlockProps {
   title: string;

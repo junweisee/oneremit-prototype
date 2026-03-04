@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 import { Translation } from "../translations";
-import imgLogo from "https://placehold.co/600x400082a90a04b893d1c8d3ceafaf5997a05068aab8b.png";
+import imgLogo from "https://placehold.co/600x400";
 
 interface FooterProps {
   t: Translation;

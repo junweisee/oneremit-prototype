@@ -1,9 +1,9 @@
 import { motion } from "motion/react";
 import { CountryGrid } from "../components/CountryGrid";
-import imgHeaderImage from "https://placehold.co/600x400a9c39a772abd6c20c7a3d49af927f6d2cf27eaa1.png";
-import imgPartnerLogo from "https://placehold.co/600x400f1d4b8e24b8e9b521062defb57f39eff3062f9a5.png"; // MUFG
-import imgPartnerLogo1 from "https://placehold.co/600x400e0fffb6bc7f627ff03ef9e507c8c2570ada6f764.png"; // Mizuho
-import imgPartnerLogo2 from "https://placehold.co/600x4009244b8b277d36d83809aed35750cf9000b684e4f.png"; // Rakuten Bank
+import imgHeaderImage from "https://placehold.co/600x400";
+import imgPartnerLogo from "https://placehold.co/600x400"; // MUFG
+import imgPartnerLogo1 from "https://placehold.co/600x400"; // Mizuho
+import imgPartnerLogo2 from "https://placehold.co/600x400"; // Rakuten Bank
 
 const JOURNEY = [
   {

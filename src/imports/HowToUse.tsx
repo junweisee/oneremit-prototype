@@ -1,7 +1,7 @@
 import svgPaths from "./svg-lzxx3v0b7v";
-import imgLogo from "https://placehold.co/600x400082a90a04b893d1c8d3ceafaf5997a05068aab8b.png";
-import imgFlagImage from "https://placehold.co/600x4009875e3b3d86e7e562cb0bc2c432eba5885fc02be.png";
-import imgLogo1 from "https://placehold.co/600x4007e7c8b6a7dd1d7f076f1860e1515f3aa90ba48b8.png";
+import imgLogo from "https://placehold.co/600x400";
+import imgFlagImage from "https://placehold.co/600x400";
+import imgLogo1 from "https://placehold.co/600x400";
 
 function NavigationItem() {
   return (

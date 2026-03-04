@@ -2,8 +2,8 @@ import { useState, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { ChevronDown } from "lucide-react";
 import { Translation, CURRENCIES, formatReceiveAmount } from "../translations";
-import imgFlagKR from "https://placehold.co/600x400da19d3b20c36de9cd3c0b60eb2dd732efebf6d02.png"; // Korea
-import imgFlagCN from "https://placehold.co/600x4009b49587ddc7f5ff1a253a50d93a5735408b7988d.png"; // China
+import imgFlagKR from "https://placehold.co/600x400"; // Korea
+import imgFlagCN from "https://placehold.co/600x400"; // China
 
 const JP_FLAG = "https://flagcdn.com/w40/jp.png";
 
@@ -67,7 +67,7 @@ export function Calculator({
   const receiveAmountComputed = netAmount * selectedCurrency.rate;
   const receiveFormatted = formatReceiveAmount(
     receiveAmountComputed,
-    selectedCurrency.decimals
+    selectedCurrency.decimals,
   );
 
   // Currency change → snap back to send-active so receive is recomputed

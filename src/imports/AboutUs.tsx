@@ -1,11 +1,11 @@
 import svgPaths from "./svg-nvg9eh288p";
-import imgLogo from "https://placehold.co/600x400082a90a04b893d1c8d3ceafaf5997a05068aab8b.png";
-import imgFlagImage from "https://placehold.co/600x4009875e3b3d86e7e562cb0bc2c432eba5885fc02be.png";
-import imgLogo1 from "https://placehold.co/600x4007e7c8b6a7dd1d7f076f1860e1515f3aa90ba48b8.png";
-import imgHeaderImage from "https://placehold.co/600x400a9c39a772abd6c20c7a3d49af927f6d2cf27eaa1.png";
-import imgPartnerBankLogo from "https://placehold.co/600x400f1d4b8e24b8e9b521062defb57f39eff3062f9a5.png";
-import imgPartnerBankLogo1 from "https://placehold.co/600x400e0fffb6bc7f627ff03ef9e507c8c2570ada6f764.png";
-import imgPartnerBankLogo2 from "https://placehold.co/600x4009244b8b277d36d83809aed35750cf9000b684e4f.png";
+import imgLogo from "https://placehold.co/600x400";
+import imgFlagImage from "https://placehold.co/600x400";
+import imgLogo1 from "https://placehold.co/600x400";
+import imgHeaderImage from "https://placehold.co/600x400";
+import imgPartnerBankLogo from "https://placehold.co/600x400";
+import imgPartnerBankLogo1 from "https://placehold.co/600x400";
+import imgPartnerBankLogo2 from "https://placehold.co/600x400";
 import { imgGroup, imgGroup1, imgGroup2, imgGroup3 } from "./svg-oxasz";
 
 function NavigationItem() {

@@ -1,8 +1,8 @@
 import { motion } from "motion/react";
 import { Translation } from "../translations";
-import imgFlagImage from "https://placehold.co/600x400da19d3b20c36de9cd3c0b60eb2dd732efebf6d02.png"; // KR
-import imgFlagImage1 from "https://placehold.co/600x4009875e3b3d86e7e562cb0bc2c432eba5885fc02be.png"; // GB/EN
-import imgFlagIcon from "https://placehold.co/600x4009b49587ddc7f5ff1a253a50d93a5735408b7988d.png"; // CN
+import imgFlagImage from "https://placehold.co/600x400"; // KR
+import imgFlagImage1 from "https://placehold.co/600x400"; // GB/EN
+import imgFlagIcon from "https://placehold.co/600x400"; // CN
 
 interface ExchangeNoticeSectionProps {
   t: Translation;
