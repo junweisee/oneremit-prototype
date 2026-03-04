@@ -1,9 +1,9 @@
 import { motion } from "motion/react";
 import { Translation } from "../translations";
-import imgInformationImage from "../../assets/landscape-placeholder.svg04380d1b347adc25f69945579d27f639b0420163.png";
-import imgServiceImage from "../../assets/landscape-placeholder.svg0d83fb4f23b59f70b8858869bd332423e0fcb449.png";
-import imgNetworkImage from "../../assets/landscape-placeholder.svg2d3b4a387814ed04a5cd04e744224fa132144cf1.png";
-import imgRemittanceImage from "../../assets/landscape-placeholder.svg623f7fe5dd5c02da184e093f65eba1f5ca97d3ac.png";
+import imgInformationImage from "../../assets/landscape-placeholder.svg";
+import imgServiceImage from "../../assets/landscape-placeholder.svg";
+import imgNetworkImage from "../../assets/landscape-placeholder.svg";
+import imgRemittanceImage from "../../assets/landscape-placeholder.svg";
 
 interface FeatureBlockProps {
   title: string;

@@ -1,9 +1,9 @@
 import { motion } from "motion/react";
 import { CountryGrid } from "../components/CountryGrid";
-import imgHeaderImage from "../../assets/landscape-placeholder.svga9c39a772abd6c20c7a3d49af927f6d2cf27eaa1.png";
-import imgPartnerLogo from "../../assets/landscape-placeholder.svgf1d4b8e24b8e9b521062defb57f39eff3062f9a5.png"; // MUFG
-import imgPartnerLogo1 from "../../assets/landscape-placeholder.svge0fffb6bc7f627ff03ef9e507c8c2570ada6f764.png"; // Mizuho
-import imgPartnerLogo2 from "../../assets/landscape-placeholder.svg9244b8b277d36d83809aed35750cf9000b684e4f.png"; // Rakuten Bank
+import imgHeaderImage from "../../assets/landscape-placeholder.svg";
+import imgPartnerLogo from "../../assets/landscape-placeholder.svg"; // MUFG
+import imgPartnerLogo1 from "../../assets/landscape-placeholder.svg"; // Mizuho
+import imgPartnerLogo2 from "../../assets/landscape-placeholder.svg"; // Rakuten Bank
 
 const JOURNEY = [
   {

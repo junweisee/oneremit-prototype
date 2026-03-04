@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 import { Translation } from "../translations";
 import { Calculator } from "./Calculator";
-import imgIntroImage from "../../assets/landscape-placeholder.svg4cb73885bd48ef33b1edb44ae1c6367218a5b158.png";
+import imgIntroImage from "../../assets/landscape-placeholder.svg";
 
 interface HeroSectionProps {
   t: Translation;

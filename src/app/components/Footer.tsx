@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 import { Translation } from "../translations";
-import imgLogo from "../../assets/landscape-placeholder.svg082a90a04b893d1c8d3ceafaf5997a05068aab8b.png";
+import imgLogo from "../../assets/landscape-placeholder.svg";
 
 interface FooterProps {
   t: Translation;

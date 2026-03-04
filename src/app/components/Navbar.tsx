@@ -3,9 +3,9 @@ import { Link, useLocation } from "react-router";
 import { motion, AnimatePresence } from "motion/react";
 import { Menu, X, ChevronDown } from "lucide-react";
 import { Language, LANGUAGES, Translation } from "../translations";
-import imgLogo from "../../assets/landscape-placeholder.svg082a90a04b893d1c8d3ceafaf5997a05068aab8b.png";
-import imgFlagEN from "../../assets/landscape-placeholder.svg9875e3b3d86e7e562cb0bc2c432eba5885fc02be.png";
-import imgFlagKR from "../../assets/landscape-placeholder.svgda19d3b20c36de9cd3c0b60eb2dd732efebf6d02.png";
+import imgLogo from "../../assets/landscape-placeholder.svg";
+import imgFlagEN from "../../assets/landscape-placeholder.svg";
+import imgFlagKR from "../../assets/landscape-placeholder.svg";
 
 const FLAG_MAP: Record<Language, string> = {
   en: imgFlagEN,

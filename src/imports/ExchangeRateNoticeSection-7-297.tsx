@@ -1,7 +1,7 @@
 import svgPaths from "./svg-cmjc46eo2c";
-import imgFlagImage from "../../assets/landscape-placeholder.svgda19d3b20c36de9cd3c0b60eb2dd732efebf6d02.png";
-import imgFlagImage1 from "../../assets/landscape-placeholder.svg9875e3b3d86e7e562cb0bc2c432eba5885fc02be.png";
-import imgFlagIcon from "../../assets/landscape-placeholder.svg9b49587ddc7f5ff1a253a50d93a5735408b7988d.png";
+import imgFlagImage from "../../assets/landscape-placeholder.svg";
+import imgFlagImage1 from "../../assets/landscape-placeholder.svg";
+import imgFlagIcon from "../../assets/landscape-placeholder.svg";
 
 function ExchangeRateDetails() {
   return (

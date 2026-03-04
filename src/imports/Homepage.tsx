@@ -1,17 +1,17 @@
 import svgPaths from "./svg-437bv9yw2l";
-import imgLogo from "../../assets/landscape-placeholder.svg082a90a04b893d1c8d3ceafaf5997a05068aab8b.png";
-import imgFlagImage from "../../assets/landscape-placeholder.svg9875e3b3d86e7e562cb0bc2c432eba5885fc02be.png";
-import imgIntroImage from "../../assets/landscape-placeholder.svg4cb73885bd48ef33b1edb44ae1c6367218a5b158.png";
-import imgFlagImage1 from "../../assets/landscape-placeholder.svg27be2d2426c96da581cf5ef337cb07ac72675fe3.png";
-import imgFlagImage2 from "../../assets/landscape-placeholder.svgda19d3b20c36de9cd3c0b60eb2dd732efebf6d02.png";
-import imgInformationImage from "../../assets/landscape-placeholder.svg04380d1b347adc25f69945579d27f639b0420163.png";
-import imgServiceImage from "../../assets/landscape-placeholder.svg0d83fb4f23b59f70b8858869bd332423e0fcb449.png";
-import imgNetworkImage from "../../assets/landscape-placeholder.svg2d3b4a387814ed04a5cd04e744224fa132144cf1.png";
-import imgRemittanceImage from "../../assets/landscape-placeholder.svg623f7fe5dd5c02da184e093f65eba1f5ca97d3ac.png";
-import imgPromotionImage from "../../assets/landscape-placeholder.svgd3016ba6bb8aa3edcc77914f5be684ef2912dd32.png";
-import imgPromotionImage1 from "../../assets/landscape-placeholder.svg191d832370083d8d5169228fe5d13a52173bba78.png";
-import imgPromotionImage2 from "../../assets/landscape-placeholder.svgd2cabf5d2339b3084dae91160ce10494692d7190.png";
-import imgFlagIcon from "../../assets/landscape-placeholder.svg9b49587ddc7f5ff1a253a50d93a5735408b7988d.png";
+import imgLogo from "../../assets/landscape-placeholder.svg";
+import imgFlagImage from "../../assets/landscape-placeholder.svg";
+import imgIntroImage from "../../assets/landscape-placeholder.svg";
+import imgFlagImage1 from "../../assets/landscape-placeholder.svg";
+import imgFlagImage2 from "../../assets/landscape-placeholder.svg";
+import imgInformationImage from "../../assets/landscape-placeholder.svg";
+import imgServiceImage from "../../assets/landscape-placeholder.svg";
+import imgNetworkImage from "../../assets/landscape-placeholder.svg";
+import imgRemittanceImage from "../../assets/landscape-placeholder.svg";
+import imgPromotionImage from "../../assets/landscape-placeholder.svg";
+import imgPromotionImage1 from "../../assets/landscape-placeholder.svg";
+import imgPromotionImage2 from "../../assets/landscape-placeholder.svg";
+import imgFlagIcon from "../../assets/landscape-placeholder.svg";
 
 function NavigationItem() {
   return (

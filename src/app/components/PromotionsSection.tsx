@@ -2,9 +2,9 @@ import { motion } from "motion/react";
 import { Translation } from "../translations";
 import { ChevronRight, ChevronLeft } from "lucide-react";
 import svgPaths from "../../imports/svg-437bv9yw2l";
-import imgPromotionImage from "../../assets/landscape-placeholder.svgd3016ba6bb8aa3edcc77914f5be684ef2912dd32.png";
-import imgPromotionImage1 from "../../assets/landscape-placeholder.svg191d832370083d8d5169228fe5d13a52173bba78.png";
-import imgPromotionImage2 from "../../assets/landscape-placeholder.svgd2cabf5d2339b3084dae91160ce10494692d7190.png";
+import imgPromotionImage from "../../assets/landscape-placeholder.svg";
+import imgPromotionImage1 from "../../assets/landscape-placeholder.svg";
+import imgPromotionImage2 from "../../assets/landscape-placeholder.svg";
 
 interface PromotionCardProps {
   image: string;

@@ -2,8 +2,8 @@ import { useState, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { ChevronDown } from "lucide-react";
 import { Translation, CURRENCIES, formatReceiveAmount } from "../translations";
-import imgFlagKR from "../../assets/landscape-placeholder.svgda19d3b20c36de9cd3c0b60eb2dd732efebf6d02.png"; // Korea
-import imgFlagCN from "../../assets/landscape-placeholder.svg9b49587ddc7f5ff1a253a50d93a5735408b7988d.png"; // China
+import imgFlagKR from "../../assets/landscape-placeholder.svg"; // Korea
+import imgFlagCN from "../../assets/landscape-placeholder.svg"; // China
 
 const JP_FLAG = "https://flagcdn.com/w40/jp.png";
 

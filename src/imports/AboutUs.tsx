@@ -1,11 +1,11 @@
 import svgPaths from "./svg-nvg9eh288p";
-import imgLogo from "../../assets/landscape-placeholder.svg082a90a04b893d1c8d3ceafaf5997a05068aab8b.png";
-import imgFlagImage from "../../assets/landscape-placeholder.svg9875e3b3d86e7e562cb0bc2c432eba5885fc02be.png";
-import imgLogo1 from "../../assets/landscape-placeholder.svg7e7c8b6a7dd1d7f076f1860e1515f3aa90ba48b8.png";
-import imgHeaderImage from "../../assets/landscape-placeholder.svga9c39a772abd6c20c7a3d49af927f6d2cf27eaa1.png";
-import imgPartnerBankLogo from "../../assets/landscape-placeholder.svgf1d4b8e24b8e9b521062defb57f39eff3062f9a5.png";
-import imgPartnerBankLogo1 from "../../assets/landscape-placeholder.svge0fffb6bc7f627ff03ef9e507c8c2570ada6f764.png";
-import imgPartnerBankLogo2 from "../../assets/landscape-placeholder.svg9244b8b277d36d83809aed35750cf9000b684e4f.png";
+import imgLogo from "../../assets/landscape-placeholder.svg";
+import imgFlagImage from "../../assets/landscape-placeholder.svg";
+import imgLogo1 from "../../assets/landscape-placeholder.svg";
+import imgHeaderImage from "../../assets/landscape-placeholder.svg";
+import imgPartnerBankLogo from "../../assets/landscape-placeholder.svg";
+import imgPartnerBankLogo1 from "../../assets/landscape-placeholder.svg";
+import imgPartnerBankLogo2 from "../../assets/landscape-placeholder.svg";
 import { imgGroup, imgGroup1, imgGroup2, imgGroup3 } from "./svg-oxasz";
 
 function NavigationItem() {
