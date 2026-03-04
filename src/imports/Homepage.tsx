@@ -1,17 +1,17 @@
 import svgPaths from "./svg-437bv9yw2l";
-import imgLogo from C:\Users\junwe\Documents\GitHub\oneremit-prototype\src\assets\landscape-placeholder.svg;
-import imgFlagImage from C:\Users\junwe\Documents\GitHub\oneremit-prototype\src\assets\landscape-placeholder.svg;
-import imgIntroImage from C:\Users\junwe\Documents\GitHub\oneremit-prototype\src\assets\landscape-placeholder.svg;
-import imgFlagImage1 from C:\Users\junwe\Documents\GitHub\oneremit-prototype\src\assets\landscape-placeholder.svg;
-import imgFlagImage2 from C:\Users\junwe\Documents\GitHub\oneremit-prototype\src\assets\landscape-placeholder.svg;
-import imgInformationImage from C:\Users\junwe\Documents\GitHub\oneremit-prototype\src\assets\landscape-placeholder.svg;
-import imgServiceImage from C:\Users\junwe\Documents\GitHub\oneremit-prototype\src\assets\landscape-placeholder.svg;
-import imgNetworkImage from C:\Users\junwe\Documents\GitHub\oneremit-prototype\src\assets\landscape-placeholder.svg;
-import imgRemittanceImage from C:\Users\junwe\Documents\GitHub\oneremit-prototype\src\assets\landscape-placeholder.svg;
-import imgPromotionImage from C:\Users\junwe\Documents\GitHub\oneremit-prototype\src\assets\landscape-placeholder.svg;
-import imgPromotionImage1 from C:\Users\junwe\Documents\GitHub\oneremit-prototype\src\assets\landscape-placeholder.svg;
-import imgPromotionImage2 from C:\Users\junwe\Documents\GitHub\oneremit-prototype\src\assets\landscape-placeholder.svg;
-import imgFlagIcon from C:\Users\junwe\Documents\GitHub\oneremit-prototype\src\assets\landscape-placeholder.svg;
+import imgLogo from "../assets/landscape-placeholder.svg";
+import imgFlagImage from "../assets/landscape-placeholder.svg";
+import imgIntroImage from "../assets/landscape-placeholder.svg";
+import imgFlagImage1 from "../assets/landscape-placeholder.svg";
+import imgFlagImage2 from "../assets/landscape-placeholder.svg";
+import imgInformationImage from "../assets/landscape-placeholder.svg";
+import imgServiceImage from "../assets/landscape-placeholder.svg";
+import imgNetworkImage from "../assets/landscape-placeholder.svg";
+import imgRemittanceImage from "../assets/landscape-placeholder.svg";
+import imgPromotionImage from "../assets/landscape-placeholder.svg";
+import imgPromotionImage1 from "../assets/landscape-placeholder.svg";
+import imgPromotionImage2 from "../assets/landscape-placeholder.svg";
+import imgFlagIcon from "../assets/landscape-placeholder.svg";
 
 function NavigationItem() {
   return (

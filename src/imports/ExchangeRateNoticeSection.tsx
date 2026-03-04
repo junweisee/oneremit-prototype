@@ -1,7 +1,7 @@
 import svgPaths from "./svg-ovqndi5xxe";
-import imgFlagImage from C:\Users\junwe\Documents\GitHub\oneremit-prototype\src\assets\landscape-placeholder.svg;
-import imgFlagImage1 from C:\Users\junwe\Documents\GitHub\oneremit-prototype\src\assets\landscape-placeholder.svg;
-import imgFlagIcon from C:\Users\junwe\Documents\GitHub\oneremit-prototype\src\assets\landscape-placeholder.svg;
+import imgFlagImage from "../assets/landscape-placeholder.svg";
+import imgFlagImage1 from "../assets/landscape-placeholder.svg";
+import imgFlagIcon from "../assets/landscape-placeholder.svg";
 
 function ExchangeRateDetails() {
   return (

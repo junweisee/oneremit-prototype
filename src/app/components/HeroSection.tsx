@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 import { Translation } from "../translations";
 import { Calculator } from "./Calculator";
-import imgIntroImage from C:\Users\junwe\Documents\GitHub\oneremit-prototype\src\assets\landscape-placeholder.svg;
+import imgIntroImage from "../assets/landscape-placeholder.svg";
 
 interface HeroSectionProps {
   t: Translation;
