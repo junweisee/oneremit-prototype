@@ -1,9 +1,9 @@
-import { motion } from "motion/react";
-import { Translation } from "../translations";
-import imgInformationImage from "../../assets/landscape-placeholder.svg";
-import imgServiceImage from "../../assets/landscape-placeholder.svg";
-import imgNetworkImage from "../../assets/landscape-placeholder.svg";
-import imgRemittanceImage from "../../assets/landscape-placeholder.svg";
+import { motion } from 'motion/react';
+import { Translation } from '../translations';
+import imgInformationImage from 'figma:asset/04380d1b347adc25f69945579d27f639b0420163.png';
+import imgServiceImage from 'figma:asset/0d83fb4f23b59f70b8858869bd332423e0fcb449.png';
+import imgNetworkImage from 'figma:asset/2d3b4a387814ed04a5cd04e744224fa132144cf1.png';
+import imgRemittanceImage from 'figma:asset/623f7fe5dd5c02da184e093f65eba1f5ca97d3ac.png';
 
 interface FeatureBlockProps {
   title: string;
@@ -14,32 +14,19 @@ interface FeatureBlockProps {
   delay?: number;
 }
 
-function FeatureBlock({
-  title,
-  desc,
-  image,
-  imageAlt,
-  reverse = false,
-  delay = 0,
-}: FeatureBlockProps) {
+function FeatureBlock({ title, desc, image, imageAlt, reverse = false, delay = 0 }: FeatureBlockProps) {
   return (
     <motion.div
-      className={`flex flex-col ${
-        reverse ? "md:flex-row-reverse" : "md:flex-row"
-      } items-center gap-8 md:gap-16`}
+      className={`flex flex-col ${reverse ? 'md:flex-row-reverse' : 'md:flex-row'} items-center gap-8 md:gap-16`}
       initial={{ opacity: 0, y: 28 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: "-60px" }}
-      transition={{ duration: 0.6, delay, ease: "easeOut" }}
+      viewport={{ once: true, margin: '-60px' }}
+      transition={{ duration: 0.6, delay, ease: 'easeOut' }}
     >
       {/* Text */}
       <div className="flex-1 min-w-0 flex flex-col gap-5">
-        <h2 className="text-[#231a16] font-bold text-[20px] md:text-[24px] leading-snug">
-          {title}
-        </h2>
-        <p className="text-[#3f4e50] text-[15px] md:text-[16px] leading-relaxed">
-          {desc}
-        </p>
+        <h2 className="text-[#231a16] font-bold text-[20px] md:text-[24px] leading-snug">{title}</h2>
+        <p className="text-[#3f4e50] text-[15px] md:text-[16px] leading-relaxed">{desc}</p>
       </div>
 
       {/* Image */}
@@ -47,14 +34,10 @@ function FeatureBlock({
         className="w-full md:w-[46%] rounded-2xl overflow-hidden aspect-[575/369] shrink-0"
         initial={{ opacity: 0, scale: 0.96 }}
         whileInView={{ opacity: 1, scale: 1 }}
-        viewport={{ once: true, margin: "-60px" }}
-        transition={{ duration: 0.7, delay: delay + 0.1, ease: "easeOut" }}
+        viewport={{ once: true, margin: '-60px' }}
+        transition={{ duration: 0.7, delay: delay + 0.1, ease: 'easeOut' }}
       >
-        <img
-          src={image}
-          alt={imageAlt}
-          className="w-full h-full object-cover"
-        />
+        <img src={image} alt={imageAlt} className="w-full h-full object-cover" />
       </motion.div>
     </motion.div>
   );
